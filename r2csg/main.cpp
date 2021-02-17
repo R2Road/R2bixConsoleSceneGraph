@@ -1,6 +1,9 @@
 ﻿#include <iostream>
 
+#include "r2csg_Node.h"
+
 int main()
 {
-    std::cout << "Hello World!\n";
+	r2csg::Node node;
+	node.Print();
 }
